@@ -5,15 +5,15 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi develop",
+    "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.1.3",
-    "@strapi/plugin-users-permissions": "4.1.3",
     "@strapi/plugin-i18n": "4.1.3",
+    "@strapi/plugin-users-permissions": "4.1.3",
+    "@strapi/strapi": "4.1.3",
+    "heroku": "^7.59.4",
     "pg": "8.6.0"
   },
   "author": {
